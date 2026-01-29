@@ -8,7 +8,7 @@ function SetCharacterScale.BeforeMorphCharacter(player: Player, morph)
 	
 	local Humanoid = player.Character:WaitForChild("Humanoid")
 	task.wait()
-	local CurrentDescription: HumanoidDescription = Humanoid:GetAppliedDescription()
+	local CurrentDescription:HumanoidDescription = Humanoid:GetAppliedDescription()
 
 	CurrentDescription.BodyTypeScale = 0
 	CurrentDescription.DepthScale = 1
